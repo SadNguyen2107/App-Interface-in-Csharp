@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\bin\Debug\net7.0\old_Csharp_project.exe
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\bin\Debug\net7.0\old_Csharp_project.deps.json
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\bin\Debug\net7.0\old_Csharp_project.runtimeconfig.json
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\bin\Debug\net7.0\old_Csharp_project.dll
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\bin\Debug\net7.0\old_Csharp_project.pdb
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\obj\Debug\net7.0\old_Csharp_project.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\obj\Debug\net7.0\old_Csharp_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\obj\Debug\net7.0\old_Csharp_project.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\obj\Debug\net7.0\old_Csharp_project.AssemblyInfo.cs
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\obj\Debug\net7.0\old_Csharp_project.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\obj\Debug\net7.0\old_Csharp_project.dll
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\obj\Debug\net7.0\refint\old_Csharp_project.dll
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\obj\Debug\net7.0\old_Csharp_project.pdb
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\obj\Debug\net7.0\old_Csharp_project.genruntimeconfig.cache
+C:\Users\User\OneDrive - Hanoi University of Science and Technology\Desktop\old_Csharp_project\obj\Debug\net7.0\ref\old_Csharp_project.dll
