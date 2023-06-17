@@ -2,9 +2,15 @@ using System;
 
 namespace SavingInterface
 {
-    class TodoList: IDisplayable, IResetable
+    class TodoList : IDisplayable, IResetable
     {
+        // FIELDS
+        private string headerSymbol = "-";
         // PROPERTIES
+        public string HeaderSymbol
+        {
+            get { return this.headerSymbol; }
+        }
         public string[] Todos
         { get; private set; }
 
@@ -20,17 +26,39 @@ namespace SavingInterface
         // METHODS
         public void Add(string todo)
         {
-            Todos[nextOpenIndex] = todo;
-            nextOpenIndex++;
+            if (this.nextOpenIndex < 5)
+            {
+                Todos[nextOpenIndex] = todo;
+                nextOpenIndex++;
+            }
+            else
+            {
+                Console.WriteLine("That is too much for Todos List");
+            }
         }
         public void Display()
         {
-            Console.WriteLine("Work needs to be done: ");
-            for (int index = 0; index < Todos.Length; index++)
+            Console.WriteLine("Todos");
+            for (int time = 0; time < 8; time++)
             {
-                Console.WriteLine($"{index}. {this.Todos[index]}");
+                Console.Write(this.HeaderSymbol);
             }
+            Console.WriteLine();
 
+            foreach (string todo in this.Todos)
+            {
+                if (!String.IsNullOrEmpty(todo))
+                {
+                    Console.WriteLine(todo);
+                }
+                else Console.WriteLine("[]");
+            }
+        }
+
+        public void Reset()
+        {
+            this.Todos = new String[5];
+            this.nextOpenIndex = 0;
         }
     }
 }

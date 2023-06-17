@@ -6,8 +6,7 @@ namespace SavingInterface
 {
     interface IResetable
     {
-        void Reset() {
-                
-        }
+     // METHODS
+        void Reset();
     }
 }
