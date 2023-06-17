@@ -13,6 +13,8 @@ namespace SavingInterface
 
             PasswordManager pm = new PasswordManager("iluvpie", true);
             
+            tdl.Display();
+            pm.Display();
         }
     }
 }

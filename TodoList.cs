@@ -2,7 +2,7 @@ using System;
 
 namespace SavingInterface
 {
-    class TodoList
+    class TodoList: IDisplayable, IResetable
     {
         // PROPERTIES
         public string[] Todos
@@ -22,6 +22,15 @@ namespace SavingInterface
         {
             Todos[nextOpenIndex] = todo;
             nextOpenIndex++;
+        }
+        public void Display()
+        {
+            Console.WriteLine("Work needs to be done: ");
+            for (int index = 0; index < Todos.Length; index++)
+            {
+                Console.WriteLine($"{index}. {this.Todos[index]}");
+            }
+
         }
     }
 }

@@ -2,7 +2,7 @@ using System;
 
 namespace SavingInterface
 {
-    class PasswordManager
+    class PasswordManager : IDisplayable
     {
         // PROPERTIES
         private string Password
@@ -16,6 +16,16 @@ namespace SavingInterface
         {
             Password = password;
             Hidden = hidden;
+        }
+
+        // METHODS
+        public void Display()
+        {
+            if (!this.Hidden)
+            {
+                Console.WriteLine($"Password: {this.Password}");
+            }
+            else { Console.WriteLine("Password: *"); }
         }
     }
 }

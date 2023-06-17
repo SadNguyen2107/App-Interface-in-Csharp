@@ -4,8 +4,10 @@ using System;
 
 namespace SavingInterface
 {
-    interface IResettable
+    interface IResetable
     {
-        
+        void Reset() {
+                
+        }
     }
 }
